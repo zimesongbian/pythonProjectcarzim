@@ -9,7 +9,7 @@ except ImportError:
     st.stop()
 
 # Load the Excel file
-file_path = 'car1.xlsx'
+file_path = '/Users/macbook/PycharmProjects/pythonProjectcarzim/car1.xlsx'
 car_data = pd.read_excel(file_path)
 
 # # Display the column names for debugging
